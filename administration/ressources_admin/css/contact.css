@@ -1,0 +1,10 @@
+#supprimer_message {
+    color: red;
+}
+
+@media screen and (max-width: 600px) {
+    table tbody td {
+        font-size: 70%;
+        text-align: center;
+    }
+  }

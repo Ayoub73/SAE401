@@ -1,0 +1,10 @@
+#profileDisplay {
+    width: 60%;
+    display: block;
+    margin: 10px auto;
+    border-radius: 10%;
+}
+
+.photo_profil {
+    text-align: center;
+}

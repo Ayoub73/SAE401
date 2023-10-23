@@ -1,0 +1,24 @@
+@media screen and (max-width: 600px) {
+    #couleur_conteneur {
+        text-align: center;
+    }
+  }
+
+#couleur_arriere_plan, #couleur_bordure, #couleur_text {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 70px;
+    height: 70px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+  #couleur_arriere_plan::-webkit-color-swatch, #couleur_bordure::-webkit-color-swatch, #couleur_text::-webkit-color-swatch {
+    border-radius: 50%;
+    border: none;
+  }
+  #couleur_arriere_plan::-webkit-color-swatch, #couleur_bordure::-webkit-color-swatch, #couleur_text::-moz-color-swatch {
+    border-radius: 50%;
+    border: none;
+  }

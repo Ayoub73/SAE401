@@ -1,0 +1,21 @@
+#marqueur_icone_display {
+    width: 10%;
+}
+
+#marqueur_ombre_display {
+    width: 15%;
+}
+
+#image_iut_display {
+    width: 60%;
+}
+
+#marqueur_icone_display, #marqueur_ombre_display, #image_iut_display {
+    display: block;
+    margin: 10px auto;
+    border-radius: 10%;
+}
+
+.marqueur_icone, .marqueur_ombre ,.image_iut {
+    text-align: center;
+}
