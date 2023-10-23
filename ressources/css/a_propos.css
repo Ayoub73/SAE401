@@ -1,0 +1,18 @@
+#map { 
+    height: 700px;
+ }
+
+#titre_iut{
+    color: black;
+} 
+
+#image_iut{
+    width: 250px;
+    height: 250px;
+    border-radius: 10%;
+}
+    
+
+#conteneurImage {
+    text-align: center;   
+}

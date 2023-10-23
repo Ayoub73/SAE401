@@ -1,0 +1,47 @@
+#notification{
+    text-align: center;
+}
+
+#message_valide{
+    color:green;
+    font-size: 20px;
+    text-align: center;	
+}
+
+#message_invalide{
+    color:red;
+    font-size: 20px;
+    text-align: center;
+}	
+
+#notificationInvalide{
+    text-align: center;
+    background-color: rgb(40, 4, 4);
+    padding: 20px 30px 20px 30px;
+    border-radius: 20px;
+}
+
+#notificationValide{
+    text-align: center;
+    background-color: rgb(4, 40, 4);
+    padding: 20px 30px 20px 30px;
+    border-radius: 20px;
+}
+
+#bouton_fermer_succes{
+    background-color: green;
+}
+
+#bouton_fermer_succes:hover{
+    background-color: #004d00;
+    transition: 0.2s;
+}
+
+#bouton_fermer_erreur{
+    background-color: #ab1130;
+}
+
+#bouton_fermer_erreur:hover{
+    background-color: #7b0b22;
+    transition: 0.2s;
+}
